@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pth
+
+# Logs
+logs/
+results/
+
+# PyCharm
+.idea/
