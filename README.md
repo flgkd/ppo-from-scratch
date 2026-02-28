@@ -57,22 +57,9 @@ This implementation follows the original PPO paper:
 
 Clipped objective:
 
-Clipped objective:
-
 $$
-L^{\text{CLIP}}(\theta)
-=
-\mathbb{E}_t
-\left[
-\min
-\left(
-r_t(\theta) A_t,\;
-\text{clip}\big(r_t(\theta), 1-\epsilon, 1+\epsilon\big) A_t
-\right)
-\right]
+L^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( r_t(\theta) A_t, \text{clip}\big(r_t(\theta), 1-\epsilon, 1+\epsilon\big) A_t \right) \right]
 $$
-
-Key components implemented:
 
 Key components implemented:
 
