@@ -176,7 +176,7 @@ This will:
 * Display live gameplay
 
 <div align="center">
-  <img src="images/cartpole.gif" alt="CartPole">
+  <img src="images/cartpole.gif?raw=true" alt="CartPole">
 </div>
 
 ---
